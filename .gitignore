@@ -1,0 +1,73 @@
+# Unity-generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+/CrashReports/
+
+# Ignore Addressables build data
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore generated JetBrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Ignore Visual Studio cache and build files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.sln.iml
+
+# Rider / IntelliJ config
+.idea/
+
+# VS Code config
+.vscode/
+
+# Unity meta and crash files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.profiler
+*.perfdata
+
+# Unity builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Unity Package Manager lockfile (optionally ignore)
+**/[Pp]ackages/packages-lock.json
+
+# Uncomment if using AssetStoreTools and want to ignore it
+# /[Aa]ssets/AssetStoreTools*
