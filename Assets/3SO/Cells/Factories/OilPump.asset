@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0628283c8761e4a977ccd4f5edcbbf, type: 3}
+  m_Name: OilPump
+  m_EditorClassIdentifier: 
+  cellName: OilPump
+  title: Oil Pump
+  cellPrefab: {fileID: 5179880248006276303, guid: 3471fa26b1dd6484aaf706138166d09c,
+    type: 3}
+  randomRotationOnSpawn: 0
+  cellTypes: 4
+  prebuildPrefab: {fileID: 8508266261373955723, guid: 7f128d89cb09db34b9101522bc2fd81d,
+    type: 3}
+  icon: {fileID: 21300000, guid: 107346b534410064dab0d776a3776b3d, type: 3}
+  factoryTypes: 2
+  costIconCode: <sprite=0>
+  startCost: 5000
+  updateIconCode: <sprite=3>
+  updateCost: 1000
+  upgrades: []
+  collectValue: 40
+  BonusCollectValue: 0
+  description: Make <color=yellow>{0}<sprite=0></color> / sec  from oil lake

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0628283c8761e4a977ccd4f5edcbbf, type: 3}
+  m_Name: Bank
+  m_EditorClassIdentifier: 
+  cellName: Bank
+  title: Bank
+  cellPrefab: {fileID: 8740443217677003018, guid: 4e583db948ac3a843a7fea5f3dd5fdca,
+    type: 3}
+  randomRotationOnSpawn: 0
+  cellTypes: 4
+  prebuildPrefab: {fileID: 8508266261373955723, guid: cc6bed0ec0ddedb4585222f57cf0b7e8,
+    type: 3}
+  icon: {fileID: 21300000, guid: 162d13694cce86c4aab841ff156855b1, type: 3}
+  factoryTypes: 1
+  costIconCode: <sprite=0>
+  startCost: 1500
+  updateIconCode: <sprite=3>
+  updateCost: 1500
+  upgrades: []
+  collectValue: 100
+  BonusCollectValue: 0
+  description: Collect <color=yellow>{0}<sprite=0></color> money from factories on
+    island

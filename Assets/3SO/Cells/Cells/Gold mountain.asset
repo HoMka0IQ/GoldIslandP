@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78b86800bb52b94ab5c6d694f0777c2, type: 3}
+  m_Name: Gold mountain
+  m_EditorClassIdentifier: 
+  cellName: Gold mountain
+  title: Forest
+  cellPrefab: {fileID: 719150962444997463, guid: 5c9c13f82e707104c9ba9481e24155a5,
+    type: 3}
+  randomRotationOnSpawn: 1
+  cellTypes: 5
+  naturalCellTypes: 0
